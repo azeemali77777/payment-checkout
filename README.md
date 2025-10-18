@@ -124,23 +124,12 @@ payment-checkout/
 
 1. **Clone and Install**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/azeemali77777/payment-checkout.git
    cd payment-checkout
-   npm install
+   yarn install
    ```
 
-2. **Development Server**
-   ```bash
-   npm run dev
-   ```
-
-3. **Production Build**
-   ```bash
-   npm run build
-   npm start
-   ```
-
-4. **Access Application**
+2. **Access Application**
    - Development: [http://localhost:3000](http://localhost:3000)
    - Automatically redirects to `/checkout`
 
@@ -348,13 +337,6 @@ CMD ["npm", "start"]
 5. Commit changes (`git commit -m 'Add amazing feature'`)
 6. Push to branch (`git push origin feature/amazing-feature`)
 7. Open Pull Request
-
-### Code Standards
-- Follow TypeScript strict mode
-- Use semantic commit messages
-- Add JSDoc comments for public APIs
-- Maintain 90%+ test coverage
-- Follow accessibility guidelines
 
 ### Resources
 - [Next.js Documentation](https://nextjs.org/docs)
